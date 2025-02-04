@@ -1,21 +1,27 @@
 public class CastingRunner
 	{
 	public static void main(String[] args)
-		{		
+		{
+			
+//		Vehicle x = new Vehicle();
+//		x.displaySpeed();
+//		x.doASuperClassSomething();
+//		x.honkHorn();
+		
 //		Car x = new Car();
 //		x.displaySpeed();
+//		x.doASuperClassSomething();
 //		x.honkHorn();
-//		x.ringBell();
 			
 //		Vehicle x = new Car();
 //		x.displaySpeed();
+//		x.doASuperClassSomething();
 //		x.honkHorn();
-//		x.ringBell();
-		
-//		Vehicle x = new Car();
-//		((Car)x).ringBell();
-//		((Car)x).displaySpeed();
-//		((Car)x).honkHorn();
+
+		Vehicle x = new Car();
+		((Car) x).displaySpeed();
+		((Car) x).doASuperClassSomething();
+		((Car) x).honkHorn();
 		
 //		Vehicle x = new Car();
 //		System.out.println(x.type);
